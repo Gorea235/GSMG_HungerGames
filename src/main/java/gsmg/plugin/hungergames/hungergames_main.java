@@ -13,4 +13,9 @@ public class hungergames_main extends JavaPlugin {
 	public static void Log(String toLog) {
 		Bukkit.getLogger().info(toLog);
 	}
+	
+	@Override
+	public void onEnable(){
+		//getCommand("test").setExecutor(new hungergames_executor(this)); // example command
+	}
 }

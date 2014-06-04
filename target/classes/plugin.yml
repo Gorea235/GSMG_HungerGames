@@ -1,0 +1,14 @@
+name: HungerGames
+main: gsmg.plugin.hungergames.hungergames_main
+version: 0.0.1-snapshot
+authors: [Gorea235, SteelArts]
+commands:
+    hungergames:
+        description: The main command of the plugin
+        usage: /<command> <option> [args]
+        aliases: hg
+        permission: hungergames.*
+        permission-message: You do not have permission to use this command.
+permissions:
+    hungergames.*:
+        description: The only permission for this plugin, allows all commands/arguents.
